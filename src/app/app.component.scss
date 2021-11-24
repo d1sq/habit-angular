@@ -1,13 +1,14 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
-textarea{
+textarea {
   resize: none;
 }
 
 
-.toolbar-container{
+.toolbar-container {
   position: absolute;
   width: 100%;
   display: flex;
@@ -29,12 +30,12 @@ video {
   border-radius: 5px;
 }
 
-.ant-btn-primary{
+.ant-btn-primary {
   background-color: #6441a5;
   border: 0;
 }
 
-.ant-card-head{
+.ant-card-head {
   border-bottom: 1px solid #0f0b0b;
 }
 
@@ -44,11 +45,11 @@ video {
   color: rgb(235, 235, 235);
 }
 
-i{
+i {
   font-size: 30px
 }
 
-.main-container{
+.main-container {
   padding: 0 70px;
   display: flex;
   max-width: 95vw;
@@ -58,35 +59,36 @@ i{
   overflow: auto;
 }
 
-.cards{
+.cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.ant-card-bordered{
+.ant-card-bordered {
   border: 1px solid #575757;
 }
 
-.card{
+.card {
   margin: 10px;
 }
-.toolbar-container{
+
+.toolbar-container {
   background-color: #310062;
 
   text-align: center;
 }
 
 
-.editElement{
+.editElement {
   margin: 12px 0 12px 0;
 }
 
-.select{
+.select {
   margin-left: 3px;
 }
 
-.editor{
+.editor {
   position: absolute;
   position: absolute;
   left: 50%;
@@ -94,7 +96,7 @@ i{
   transform: translate(-50%, -50%);
 }
 
-.buttons{
+.buttons {
   display: flex;
   justify-content: space-between;
 }
@@ -102,13 +104,11 @@ i{
 
 
 button {
-    width: 100%;
-    margin-bottom: 1em;
+  width: 100%;
+  margin-bottom: 1em;
 }
 
-.addButton{
+.addButton {
   max-width: 300px;
   display: inline-block;
 }
-
-
