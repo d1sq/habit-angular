@@ -1,0 +1,114 @@
+html, body {
+  height: 100%;
+}
+
+textarea{
+  resize: none;
+}
+
+
+.toolbar-container{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.toolbar-container button {
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+.ant-btn-primary{
+  background-color: #6441a5;
+  border: 0;
+}
+
+.ant-card-head{
+  border-bottom: 1px solid #0f0b0b;
+}
+
+.toolbar-container h1 {
+
+  padding-left: 5px;
+  color: rgb(235, 235, 235);
+}
+
+i{
+  font-size: 30px
+}
+
+.main-container{
+  padding: 0 70px;
+  display: flex;
+  max-width: 95vw;
+  width: 100%;
+  height: 100%;
+  padding-top: 5em;
+  overflow: auto;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ant-card-bordered{
+  border: 1px solid #575757;
+}
+
+.card{
+  margin: 10px;
+}
+.toolbar-container{
+  background-color: #310062;
+
+  text-align: center;
+}
+
+
+.editElement{
+  margin: 12px 0 12px 0;
+}
+
+.select{
+  margin-left: 3px;
+}
+
+.editor{
+  position: absolute;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+button {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.addButton{
+  max-width: 300px;
+  display: inline-block;
+}
+
+
