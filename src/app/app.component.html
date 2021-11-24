@@ -37,7 +37,7 @@
   </div>
 </div>
 <div *ngIf="adding || editing">
-  <nz-card class="editor" style="width: 500px" [nzTitle]="adding ? 'Добавить новую привычку' : 'Изменить привычку'">
+  <nz-card class="editor" style="width: 500px" [nzTitle]="adding ? 'Добавить новую привычку ' : 'Изменить привычку'">
     <form [formGroup]="habitForm" (ngSubmit)="onSubmit()">
       <input class="editElement" nz-input formControlName="name" placeholder="Название" />
       <br />
